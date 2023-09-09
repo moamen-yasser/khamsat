@@ -1,0 +1,453 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: transparent;
+}
+header{
+    position: relative;
+}
+header nav{
+    z-index: 1;
+    background-color: #444;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 60px;
+    position:fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 60px;
+    overflow:hidden;
+    font-family: "Noto Kufi Arabic", "Open Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+}
+.menu a{
+    display: block;
+    width: 22px;
+    height: 2px;
+    color: #efefef;
+    position: absolute;
+    right: 5%;
+    top: 20%;
+    font-size: 3vh;
+}
+.logo{
+    position: absolute;
+    top: 18%;
+    right: 8%;   
+}
+.iconness1{
+    font-size: 24px;
+}
+.plus a{
+    color:#fff;
+    position: absolute;
+    right: 22%;
+    top: 30%;
+    font-size: 2vh;
+    direction: rtl;
+    text-decoration: none;
+}
+.cubs a{
+    color:#fff;
+    position: absolute;
+    right: 31%;
+    top: 30%;
+    font-size: 2vh;
+    direction: rtl;
+    text-decoration: none;
+}
+.folder a{
+    color:#fff;
+    position: absolute;
+    right: 40%;
+    top: 30%;
+    font-size: 2vh;
+    direction: rtl;
+    text-decoration: none;
+}
+.truk a{
+    color:#fff;
+    position: absolute;
+    right: 49%;
+    top: 30%;
+    font-size: 2vh;
+    direction: rtl;
+    text-decoration: none;
+}
+.search a{
+    color:#fff;
+    position: absolute;
+    right: 79%;
+    top: 35%;
+    font-size: 2vh;
+}
+.shop a{
+    color:#fff;
+    position: absolute;
+    right: 82%;
+    top: 35%;
+    font-size: 2vh;
+}
+.message a {
+    color:#fff;
+    position: absolute;
+    right: 86%;
+    top: 35%;
+    font-size: 2vh;
+}
+.bell a{
+    color:#fff;
+    position: absolute;
+    right: 90%;
+    top: 35%;
+    font-size: 2vh;
+}
+.user a{
+    color:#fff;
+    position: absolute;
+    right: 94%;
+    top: 20%;
+    font-size: 3.5vh;
+}
+.hero{
+    background-image: url(high.jpg);
+    color: #222222;
+    background-size: cover;
+    background-position: center 48%;
+    background-repeat: no-repeat;
+    height: 94vh;
+    width: 100%;
+    position: relative;
+    margin-top: 60px;
+}
+.container{
+    padding-right: 18px;
+    padding-left: 18px;
+}
+.hero-postion{
+    box-sizing: border-box;
+    direction: rtl;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: "Noto Kufi Arabic", "Open Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+}
+.hero-title{
+    font-size: 30px;
+    margin-bottom: 20px;
+    line-height: 60px;
+}
+.hero-secondary-title{
+    font-size: 18px;
+    line-height: 30px;
+    margin: 0 auto 0px;
+    text-align: center;
+}
+.hero-form{
+    position: relative;
+    margin: 20px auto 0;
+    padding: 0px;
+}
+.form-control{
+    height: 70px;
+    width: 300px;
+    padding-left: 50%;
+    margin-bottom: 0;
+    font-size: 16px;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    padding-right: 10px;
+}
+.form-control:hover{
+    border-color: #52b035;
+}
+.form-control::after{
+    border-color: #52b035;
+}
+.btn{
+    position: absolute;
+    right: 465px;
+    top: 50%;
+    transform: translate(1%, -50%);
+    height: 53px;
+    padding: 13px 22px;
+    border:none;
+    background: #52b035;
+    color: #fff !important;
+    outline: none;
+    font-size: 16px;
+    font-weight: 500;
+}
+.address h2{
+    color:#52b035;
+    text-align: center;
+    font-size: 28px;
+    line-height: 44px;
+    margin: 70px;
+    font-family: "Noto Kufi Arabic", "Open Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+}
+.section1{
+    display: flex;
+    justify-content: space-around;
+    height: 200px; 
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.divv{
+    width: 100%;
+    height: 100%;
+    margin: 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.divv img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+.divv h1{
+    font-size: 25px;
+    color: white;
+    font-weight: 600;
+}
+.sec2_2{
+    height: 400px;
+    width:350px;
+}
+.sec2{
+    background-color: rgb(239, 236, 236);
+    height: 2500px;
+    margin-top: 90px;
+    width: 100%;
+}
+.show{
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: relative;
+}
+.btnshow{
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    width: 100px;
+    height: 40px;
+    background-color: rgb(239, 236, 236);
+    border:solid 1px #45962c;
+    outline: none;
+    text-align: center;
+    color: #45962c;
+    font-weight: 400;
+    font-size: 15px;
+}
+.works{
+    margin-right: 10px;
+    position: absolute;
+    right: 20px;
+    bottom: 0px;
+}
+.btnshow:hover{
+    background-color: #45962c;
+    border:none;
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    font-size: 15px;
+}
+.content1{
+    display: flex;
+    justify-content: space-around;
+    direction: rtl;
+    position: relative;
+    line-height: 3px;
+}
+.sec2 p{
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+}
+.sec2 .phigh{
+    line-height: 20px;
+}
+.sec2 .plow{
+    color: rgb(156, 156, 156);
+}
+.sec2_2 >i{
+    color:orange;
+}
+aside{
+    display: flex;
+    justify-content: space-between;
+    direction: rtl;
+    height: 300px;
+    width: 100%;
+    background-color: white;
+    margin-top: 150px;
+    margin-bottom: 20px;
+}
+aside a{
+    text-decoration: none;
+    color: #45962c;
+}
+.diiivv{
+    padding: 40px;
+    margin-bottom: 20px;
+    width: 400px;
+    width: fit-content;
+    height: 300px;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+aside .p1{
+    margin-right: 30px;
+}
+aside .p2{
+    margin-right: 10px;
+}
+.face{
+    color: rgb(70, 70, 166);
+    size: 50px;
+}
+.twi{
+    color: rgb(118, 118, 248);
+}
+.diiivv span{
+    margin-right: 20px;
+}
+.diiivv span{
+    color: #444;
+}
+footer{
+    position: relative;
+}
+footer div ul{
+    display: flex;
+    direction: rtl;
+}
+footer button{
+    text-decoration: none;
+    color: #444;
+    border: none;
+    font-size: 16px;
+}
+.all{
+    position: absolute;
+    left: 50px;
+}
+.div111{
+    margin-top: 20px;
+    background-color: white;
+    width: 100%;
+    height: 250px;
+    padding-top: 20px;
+    line-height: 20px;
+    position: relative;
+}
+.div111 img{
+    position: absolute;
+    left: 50%;
+    top: 60px;
+    transform: translate(-50%,-50%);
+}
+.low{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    font-size: 18px;
+    direction: rtl;
+    color:#444;
+    flex-wrap: wrap;
+    line-height: 5px;
+    position: absolute;
+    right: 17%;
+}
+.low1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    font-size: 18px;
+    direction: rtl;
+    color:#444;
+    flex-wrap: wrap;
+    line-height: 5px;
+    position: absolute;
+    left: 50%;
+}
+.flexxx{
+    margin: 20px;
+}
+.flexxx p{
+    font-size: 13px;
+    color:#444;
+    line-height: 5px;
+}
+@font-face {
+    font-family: 'Noto Naskh Arabic';
+    font-style: normal;
+    font-weight: 400;
+    src: url(//static.hsoubcdn.com/assets/fonts/NotoNaskhArabic-Regular.eot);
+    src: url(//static.hsoubcdn.com/assets/fonts/NotoNaskhArabic-Regular.eot?#iefix) format('embedded-opentype'),url(//static.hsoubcdn.com/assets/fonts/NotoNaskhArabic-Regular.woff2) format('woff2'),url(//static.hsoubcdn.com/assets/fonts/NotoNaskhArabic-Regular.woff) format('woff'),url(//static.hsoubcdn.com/assets/fonts/NotoNaskhArabic-Regular.ttf) format('truetype')
+}
+
+@font-face {
+    font-family: 'Noto Naskh Arabic';
+    font-style: normal;
+    font-weight: 700;
+    src: url(//static.hsoubcdn.com/assets/fonts/NotoNaskhArabic-Bold.eot);
+    src: url(//static.hsoubcdn.com/assets/fonts/NotoNaskhArabic-Bold.eot?#iefix) format('embedded-opentype'),url(//static.hsoubcdn.com/assets/fonts/NotoNaskhArabic-Bold.woff2) format('woff2'),url(//static.hsoubcdn.com/assets/fonts/NotoNaskhArabic-Bold.woff) format('woff'),url(//static.hsoubcdn.com/assets/fonts/NotoNaskhArabic-Bold.ttf) format('truetype')
+}
+
+@font-face {
+    font-family: 'Noto Kufi Arabic';
+    font-style: normal;
+    font-weight: 400;
+    src: url(//static.hsoubcdn.com/assets/fonts/NotoKufiArabic-Regular.eot);
+    src: url(//static.hsoubcdn.com/assets/fonts/NotoKufiArabic-Regular.eot?#iefix) format('embedded-opentype'),url(//static.hsoubcdn.com/assets/fonts/NotoKufiArabic-Regular.woff2) format('woff2'),url(//static.hsoubcdn.com/assets/fonts/NotoKufiArabic-Regular.woff) format('woff'),url(//static.hsoubcdn.com/assets/fonts/NotoKufiArabic-Regular.ttf) format('truetype')
+}
+
+@font-face {
+    font-family: 'Noto Kufi Arabic';
+    font-style: normal;
+    font-weight: 700;
+    src: url(//static.hsoubcdn.com/assets/fonts/NotoKufiArabic-Bold.eot);
+    src: url(//static.hsoubcdn.com/assets/fonts/NotoKufiArabic-Bold.eot?#iefix) format('embedded-opentype'),url(//static.hsoubcdn.com/assets/fonts/NotoKufiArabic-Bold.woff2) format('woff2'),url(//static.hsoubcdn.com/assets/fonts/NotoKufiArabic-Bold.woff) format('woff'),url(//static.hsoubcdn.com/assets/fonts/NotoKufiArabic-Bold.ttf) format('truetype')
+}
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Open Sans'), local('OpenSans'), url(//static.hsoubcdn.com/assets/fonts/OpenSans-Regular-latin-ext.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+  /* latin */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Open Sans'), local('OpenSans'), url(//static.hsoubcdn.com/assets/fonts/OpenSans-Regular-latin.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+  /* latin-ext */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Open Sans Bold'), local('OpenSans-Bold'), url(//static.hsoubcdn.com/assets/fonts/OpenSans-Bold-latin-ext.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+  /* latin */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Open Sans Bold'), local('OpenSans-Bold'), url(//static.hsoubcdn.com/assets/fonts/OpenSans-Bold-latin.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
